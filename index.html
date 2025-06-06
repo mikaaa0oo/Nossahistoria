@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nossa aventura de amor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 1rem 0;
+    }
+    button {
+      background: #ff1493;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    button:hover {
+      background: #ff69b4;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nossa aventura de amor</h1>
+  </header>
+  <main>
+    <img src="foto1.jpg" alt="Casal sorrindo no ônibus">
+    <img src="foto2.jpg" alt="Casal fazendo careta carinhosa">
+
+    <p>Mika e Samir. Em fevereiro, na escola, reparei em um menino bonito da sala ao lado. Apaixonei-me e falei com uma amiga para dar uma indireta.</p>
+    <p>Ela mostrou minha foto, ele se interessou e me mandou mensagem. Começamos a trocar mensagens diariamente.</p>
+    <p>Falávamos sobre o dia a dia, lugares que gostávamos e ele me achava engraçada. Joguei meu charme e ele se apaixonou.</p>
+    <p>Queria algo duradouro, e ele também. Em uma sexta, demos a ideia de sairmos juntos.</p>
+    <p>Fomos a uma churrascaria, ele com fome e eu nervosa. Compramos vinho e fomos ao Parque Ibirapuera.</p>
+    <p>Nossa química era forte, mas ele não queria namorar. Falei que não ficaria por muito tempo se não fosse sério.</p>
+    <p>Ele não gostou da ideia de não falarmos mais. Fomos ao Mc Mil na Paulista e ele viu minhas conversas no WhatsApp.</p>
+    <p>Ele perguntou sobre outros meninos e ficou com ciúmes. Nunca tinha ido ao Mc Mil, adorei a experiência.</p>
+    <p>Comendo lanche, ele perguntou: 'E se eu quiser namorar com você?' Ele estava mudando de ideia.</p>
+    <div id="final" class="hidden">
+      <p>Desde então, não nos desgrudamos. Começamos a namorar, fizemos planos de futuro e ele melhorou por mim.</p>
+      <p>Casarei com ele. Estamos buscando a Deus juntos e nossos sonhos se realizarão! Eu te amo, Samir 💗</p>
+    </div>
+    <button onclick="mostrarFinal()">Ver como terminou</button>
+  </main>
+  <script>
+    function mostrarFinal() {
+      document.getElementById('final').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
